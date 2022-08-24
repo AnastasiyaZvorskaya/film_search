@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Search</title>
+</head>
+
+
+<body>
+
+
+
+    <h3>Search:</h3>
+    <div class="wrapper">
+        <span><b>Title:</b></span>
+        <input type="text" id="text" name="text" required /><br />
+        <span><b>Type:</b></span>
+        <select class="type" id="type">
+            <option value="movie">Movie</option>
+            <option value="serias">Serias</option>
+            <option value="episode">Episode</option>
+        </select><br>
+        <input class="button" id="submit" type="submit" value="Search" onclick="selectCard(this);" />
+    </div>
+
+
+
+    <h2 id="titleFilms">Films:</h2>
+    <div class="page" id="cardForm">
+        <div id="list"></div>
+        <div class="pagination">
+            <button class="pagination_item" id="1" disabled>1</button>
+            <button class="pagination_item" id="2">2</button>
+            <button class="pagination_item" id="3">3</button>
+            <button class="pagination_item" id="4">4</button>
+            <button class="pagination_item" id="5">5</button>
+            <button class="pagination_item" id="6">6</button>
+            <button class="pagination_item" id="7">7</button>
+            <button class="pagination_item" id="8">8</button>
+            <button class="pagination_item" id="9">9</button>
+        </div>
+        <h3 id="infoFilm">Film info:</h3>
+        <div class="selectFilms">
+            <div id="details1" class="details1"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

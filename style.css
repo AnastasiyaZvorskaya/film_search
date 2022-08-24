@@ -1,0 +1,131 @@
+body {
+    /* width: 100%; */
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.wrapper {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center
+}
+
+span {
+    margin-right: 10px;
+}
+
+.type {
+    width: 200px;
+    margin: 10px;
+}
+
+#text {
+    width: 200px;
+    margin: 10px;
+}
+
+.button {
+    width: 90%;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cont {
+    margin: 10px;
+    border: 1px solid rgb(104, 98, 98);
+    border-radius: 10px;
+    width: 300px;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+#list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card,
+.textName {
+    height: 170px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#cardForm {
+    display: none;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+img {
+    width: 120px;
+    height: 170px;
+    margin-right: 15px;
+}
+
+.btn {
+    width: 125px;
+}
+
+.wrapperDetails {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.imgDetails {
+    width: 200px;
+    height: 100%;
+}
+
+.text1 {
+    display: flex;
+    align-content: space-between;
+    margin: 10px;
+}
+
+span {
+    margin-right: 15px;
+    width: 50%;
+}
+
+#infoFilm {
+    display: none;
+}
+
+#cardForm {
+    display: flex;
+}
+
+.pagination,
+#titleFilms {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
